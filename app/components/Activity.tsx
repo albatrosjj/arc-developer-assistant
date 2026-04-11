@@ -13,7 +13,7 @@ export default function Activity() {
     if (!account) return;
     setLoading(true);
     try {
-      const res = await fetch(`https://testnet.arcscan.app/api/v2/addresses/${account.address}/transactions?limit=10`);
+      const res = await fetch(`https://testnet.arcscan.app/api/v2/addresses/${account.address}/transactions`);
       const data = await res.json();
       const items = (data.items || []).map((tx: any) => ({
         hash: tx.hash,

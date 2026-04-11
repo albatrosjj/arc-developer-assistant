@@ -24,7 +24,11 @@ export default function Home() {
         <div>
           <Activity />
         </div>
-      </main>
+      </main> <footer style={{ borderTop: "0.5px solid rgba(255,255,255,0.08)", padding: "20px 24px", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px" }}>
+        <a href="https://twitter.com/albatros_0x" target="_blank" rel="noreferrer" style={{ color: "rgba(255,255,255,0.4)", fontSize: "13px", textDecoration: "none" }}>𝕏 @albatros_0x</a>
+        <span style={{ color: "rgba(255,255,255,0.15)" }}>·</span>
+        <span style={{ color: "rgba(255,255,255,0.4)", fontSize: "13px" }}>Discord hakan35._</span>
+      </footer>
     </div>
   );
 }
