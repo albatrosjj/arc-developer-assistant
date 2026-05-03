@@ -56,7 +56,7 @@ export default function Faucet() {
           cursor: "pointer", textDecoration: "none", textAlign: "center" as const,
           letterSpacing: "0.5px", marginBottom: "12px",
         }}
-      >Get 1 USDC Free ↗</a>
+      >Get 1 USDC Free</a>
       <div style={{
         display: "flex", alignItems: "center", gap: "6px",
         fontFamily: "var(--mono)", fontSize: "11px", color: "var(--muted)",
