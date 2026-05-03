@@ -47,15 +47,14 @@ export default function Faucet() {
         }}>↓ USDC balance low — get more below</div>
       )}
       
-        href="https://faucet.circle.com" target="_blank" rel="noreferrer"
+        href="https://faucet.circle.com"
+        target="_blank"
+        rel="noreferrer"
         onClick={() => toast.success("Opening Circle Faucet...")}
-        style={{
-          display: "block", width: "100%", background: "var(--arc)",
-          color: "#080B14", borderRadius: "10px", padding: "13px",
-          fontSize: "13px", fontWeight: 700, fontFamily: "var(--mono)",
-          cursor: "pointer", textDecoration: "none", textAlign: "center" as const,
-          letterSpacing: "0.5px", marginBottom: "12px",
-        }}>Get 1 USDC Free</a>
+        style={{display:"block",width:"100%",background:"var(--arc)",color:"#080B14",borderRadius:"10px",padding:"13px",fontSize:"13px",fontWeight:700,fontFamily:"var(--mono)",cursor:"pointer",textDecoration:"none",textAlign:"center",letterSpacing:"0.5px",marginBottom:"12px"}}
+      >
+        Get 1 USDC Free
+      </a>
       <div style={{
         display: "flex", alignItems: "center", gap: "6px",
         fontFamily: "var(--mono)", fontSize: "11px", color: "var(--muted)",
